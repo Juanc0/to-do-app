@@ -1,0 +1,10 @@
+<div>
+    <p>
+        Hola mundo, bienvenido <%=@nombre%>
+    </p>
+    <%if @imprimir == true%>
+    <p>
+        Fecha <%= Time.now %>
+    </p>
+    <%end%>
+</div>
